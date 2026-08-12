@@ -1,0 +1,54 @@
+# ==== GROMACS ====
+# Large trajectory/checkpoint/binary output — never commit these
+*.trr
+*.xtc
+*.cpt
+*.edr
+*.tng
+*.log
+*.tpr
+# GROMACS backup files (e.g. #file.gro.1#)
+\#*\#
+*~
+step*.pdb
+
+# Keep input/config files though:
+!*.mdp
+!*.top
+!*.itp
+!*.gro
+# (remove the !*.gro line above if your .gro files are large/many —
+#  keep only a small equilibrated starting structure if needed)
+
+# ==== Python ====
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+.env
+.venv/
+venv/
+
+# ==== LaTeX (report build files) ====
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+
+# ==== OS / Editor ====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==== Large data (optional — uncomment if needed) ====
+# *.dcd
+# *.dat
