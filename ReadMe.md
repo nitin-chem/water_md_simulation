@@ -6,9 +6,9 @@ Comparative study of four classical water models (SPC, SPC/E, TIP3P, TIP4P) usin
 **Supervisor:** Prof. Arun Venkatnathan, Department of Chemistry, IISER Pune
 **Project:** Summer Research Project, IISER Pune (May–July 2026)
 
-📄 [Full report (PDF)](report/Classical_MD_Simulation_of_Liquid_Water.pdf)
+📄 [Full report (PDF)](report/Classical_Molecular_Dynamic_Simulation_of_Liquid_Water-6.pdf)
 
-![Water box snapshot](figures/fig1_water_box_snapshot.png)
+![Water box snapshot](figures/vmdbox.png)
 
 ## Overview
 
