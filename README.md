@@ -52,7 +52,7 @@ Water is deceptively hard to model accurately despite its molecular simplicity, 
 - `report/` — full write-up with methodology, all RDF plots (298–360 K), MSD/diffusion plots, and hydrogen-bond autocorrelation analysis
 - `figures/` — key plots extracted for quick viewing
 - `data/` — density, structural/dynamic property, and H-bond lifetime tables as CSV
-- `scripts/` — GROMACS `.mdp` configuration files [and analysis scripts, if included]
+- `scripts/` — GROMACS `.mdp` configuration files (energy minimization, NPT equilibration, NVT production)
 
 ## Tools used
 
